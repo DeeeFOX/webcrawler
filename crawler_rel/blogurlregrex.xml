@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <hosts>
+        <common name="common">^.*blog(?!.*/(u|lm|special|help|m)/).*(?&lt;!\.index|\.php|\.china)$</common>
+        <cnfol name="cnfol">^http://blog.cnfol.com/.*/article/.*.html$</cnfol>
+        <eastmoney name="eastmoney">^http://blog.eastmoney.com/.*/blog_.*.html$</eastmoney>
+        <banyuetan name="banyuetan">^.*/chcontent/sz/szgc/[0-9]+/[0-9]+.html$</banyuetan>
+        <nfcmag name="nfcmag">^/(sv|article)/[0-9]+.html$</nfcmag>
+        <lifeweek name="lifeweek">^.*lifeweek.com.cn/[0-9]+/[0-9]+/[0-9]+.shtml$</lifeweek>
+        <people name="people">^.*article/[0-9]+/[0-9]+.html$</people>
+    </hosts>
+</configuration>

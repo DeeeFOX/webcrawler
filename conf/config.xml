@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>these are the properties of distributed system</comment>
+    <entry key="master.accept.port">54321</entry>
+    <entry key="master.connect.port">54322</entry>
+    <entry key="worker.accept.port">43211</entry>
+    <entry key="worker.connect.port">43212</entry>
+    <entry key="workers.ip">125.216.227.120</entry>
+    <entry key="master.ip">125.216.227.120</entry>
+    <entry key="crawler.pool.core.crawler">10</entry>
+    <entry key="crawler.pool.max.crawler">20</entry>
+    <entry key="crawler.seed.path.test">crawler_rel/seeds/blog_163,crawler_rel/seeds/blog_bokerb,crawler_rel/seeds/blog_cctv,crawler_rel/seeds/blog_blogchina,crawler_rel/seeds/blog_eastmoney,crawler_rel/seeds/blog_fang,crawler_rel/seeds/blog_bloglegal,crawler_rel/seeds/blog_lvshihui,crawler_rel/seeds/blog_people,crawler_rel/seeds/blog_qq,crawler_rel/seeds/blog_sciencenet,crawler_rel/seeds/blog_tianya,crawler_rel/seeds/blog_xinhua,crawler_rel/seeds/blog_ifeng,crawler_rel/seeds/blog_sina,crawler_rel/seeds/blog_sohu,crawler_rel/seeds/news_163,crawler_rel/seeds/news_ccav,crawler_rel/seeds/news_chinanews,crawler_rel/seeds/news_global,crawler_rel/seeds/news_ifeng,crawler_rel/seeds/news_itsum,crawler_rel/seeds/news_people,crawler_rel/seeds/news_qq,crawler_rel/seeds/news_sina,crawler_rel/seeds/news_sohu,crawler_rel/seeds/news_xinhua,crawler_rel/seeds/news_dahe,crawler_rel/seeds/news_backend</entry>
+    <entry key="crawler.seed.path">crawler_rel/seeds/news_dahe</entry>
+    <entry key="buffer.rw.size">2048</entry>
+    <entry key="if.use.hbase">0</entry>
+    <entry key="hbase.zookeeper.quorum">116.56.140.19,116.56.140.22</entry>
+    <entry key="hbase.regionserver.count">4</entry>
+    <entry key="mysql.conn.timeout">30</entry>
+    <entry key="mysql.driver">com.mysql.jdbc.Driver</entry>
+    <entry key="mysql.url">jdbc:mysql://125.216.227.56:3306/monitorsys?&amp;useUnicode=true&amp;autoReconnect=true</entry>
+    <entry key="mysql.usr">root</entry>
+    <entry key="mysql.pwd">123456</entry>
+    <entry key="news.url.regrex.file">crawler_rel/newsurlregrex.xml</entry>
+    <entry key="blog.url.regrex.file">crawler_rel/blogurlregrex.xml</entry>
+    <entry key="crawler.prior.del.ele.file">crawler_rel/priorfilter.xml</entry>
+    <entry key="crawler.post.del.ele.file">crawler_rel/postfilter.xml</entry>
+    <entry key="crawler.his.det.file">crawler_rel/detectedhis</entry>
+    <entry key="filter.title.word.file">crawler_rel/title_filter_words</entry>
+    <entry key="filter.title.tag.file.news">crawler_rel/title_filter_tags4news</entry>
+    <entry key="filter.title.tag.file.blogs">crawler_rel/title_filter_tags4blogs</entry>
+    <entry key="crawler.dom.remove.ele">script, style, .hidden, textarea, iframe</entry>
+    <!-- add the site name here that let the prior/postfilter work -->
+    <entry key="cralwer.host.sites">sina,qq,sohu,ifeng,163,people,chinanews,huanqiu,xinhua,cntv,cnbeta,csdn,36kr,pingwest,leiphone,tmtpost,ifanr,dahe,bokerb,blogchina,cnfol,eastmoney,bloglegal,lvshihui,sciencenet,tianya,fjsen,dbw,cri,lifeweek,cnr,sxrb,tmtpost</entry>
+    <entry key="min.valid.maintext.len">16</entry>
+    <entry key="min.slash.limit">3</entry>
+    <entry key="sql.detect.url">SELECT id,det_count FROM CRAWLSTAT WHERE url = ?</entry>
+    <entry key="column.detectcount">det_count</entry>
+    <entry key="sql.update.detstat">UPDATE CRAWLSTAT SET det_count=?, last_det_time=NOW() WHERE id = ?</entry>
+    <entry key="sql.update.crawlstat">UPDATE CRAWLSTAT SET crawl_time=NOW(), crawl_stat=?, crawl_node=? WHERE url = ?</entry>
+    <entry key="sql.insert.stat">INSERT INTO CRAWLSTAT (seed_url,host_site,category,a_type,url,url_hash,last_det_time,first_det_time,det_count,det_node,crawl_stat) VALUES (?,?,?,?,?,?,NOW(),NOW(),1,?,1)</entry>
+    <entry key="crawl.stat.fail">3</entry>
+    <entry key="crawl.stat.success">2</entry>
+    <entry key="mongo.application.context.file">applicationContext.xml</entry>
+</properties>

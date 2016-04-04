@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 每个站点对应的url值-->
+    <hosts>
+        <common name="common">^(?!(.*(index|comment|vip|video|slide|pic|picture|photo|data|iask|search|club|bbs|app|product|tuku|xf|cai|comment4|login|kaoshi|chinapiao|shipin|twitter))|(http://(v|tv))\.)(?!.*/(tv|document|company|stockask|blank|licence|license|photoview|photo|video|img|notebook|camera|cpu|audio|.*-pic|votehouse|special|smart|zt|share)/)(?!.*/(sitemap|tv|weibo|xuke|aboutus|guest))(.|\t|\n)*(\.(htm|html|shtml|aspx|asp\?id=.*)|(#_.*|#f=.*))$</common>
+        <ifanr name="ifanr">^http://www.ifanr.com/[0-9]+$</ifanr>
+        <csdn name="csdn">^http://www.csdn.net/article/.+$</csdn>
+        <pingwest name="pingwest">^http://www.pingwest.com/.+$</pingwest>
+        <geekpark name="geekpark">^.*/topics/[0-9]+$</geekpark>
+    </hosts>
+</configuration>
+

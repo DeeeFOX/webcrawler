@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- add the host site name to the config 2 let this file work-->
+    <hosts>
+        <chinanews name="chinanews">
+            <div>
+                <class name="pagebottom">d</class>
+                <class name="title">d</class>
+            </div>
+        </chinanews>
+        <sina name="sina">
+            <li/>
+            <div>
+                <style name="^.*display:none.*$">d</style>
+                <class name="writeComm">d</class>
+                <class name="allComm">d</class>
+                <class name="cgwr_con z_font5">新浪游戏</class>
+                <class name="class-dvn-slide clearfix">d</class>
+            </div>
+        </sina>
+        <sohu name="sohu">
+            <div>
+                <style name="^.*display:none.*$">d</style>
+                <class name="muLink">d</class>
+            </div>
+        </sohu>
+        <netease name="163">
+            <ul/>
+            <li/>
+            <div>
+                <style name="^.*display:none.*$">d</style>
+                <class name="comment">d</class>
+                <class name="tie-area">d</class>
+                <class name="gywz">d</class>
+                <class name="multicntwrap">d</class>
+                <class name="nbw-act tbar fc03 clearfix">d</class>
+                <class name="blogtoptips phide">d</class>
+                <class name="nb-nbar clearfix">d</class>
+                <class name="dvn-nb-are nb-fot">d</class>
+                <class name="nb-are nb-top">d</class>
+                <class name="phide nb-init">d</class>
+            </div>
+        </netease>
+        <qq name="qq">
+            <form/>
+            <div>
+                <id name="Main-B">d</id>
+                <id name="Main-C">d</id>
+                <id name="closedTxt">d</id>
+                <id name="commentIframe">d</id>
+                <id name="no_script">精简版QQ空间</id>
+                <class name="layout-copyright">d</class>
+                <class name="lay_copyright">d</class>
+                <class name="relativeVideo clearfix">d</class>
+                <class name="qq_articleFt">d</class>
+                <class name="scrollBtn">d</class>
+                <class name="ft">d</class>
+                <class name="minNav">d</class>
+                <class name="header">d</class>
+                <class name="title">d</class>
+                <class name="footer">d</class>
+                <class name="side">d</class>
+            </div>
+        </qq>
+        <ifeng name="ifeng">
+            <div>
+                <class name="adbox02 ss_none">d</class>
+                <class name="over">d</class>
+                <class name="picTxt_phone">d</class>
+            </div>
+        </ifeng>
+        <people name="people">
+            <div>
+                <id name="copyright">d</id>
+            </div>
+        </people>
+        <kr name="36kr">
+            <div>
+                <class name="article-side">d</class>
+            </div>
+        </kr>
+        <cnfol name="cnfol">
+            <div>
+                <id name="Mod_MyFans">d</id>
+                <class name=" Bor DeBg Cf">d</class>
+            </div>
+        </cnfol>
+        <fjsen name="fjsen">
+            <div>
+                <class name="bottom">d</class>
+            </div>
+        </fjsen>
+        <eastmoney name="eastmoney">
+            <div>
+                <style name="margin:8px 5px 0 5px;.*;line-height:1.5;">d</style>
+                <id name="eb_top">d</id>
+                <id name="commentform">d</id>
+                <id name="eb_banner">d</id>
+                <id name="eb_menu">d</id>
+                <id name="eb_bottom">d</id>
+                <id name="comment">d</id>
+                <class name="comment">d</class>
+                <class name="aboutBlog">d</class>
+                <class name="compontentBar">d</class>
+                <class name="eb_column1">d</class>
+                <class name="articleInfo">d</class>
+                <class name="prev">d</class>
+                <class name="next">d</class>
+                <class name="articleDesc">d</class>
+                <class name="eb_column1">d</class>
+            </div>
+        </eastmoney>
+        <cntv name="cntv">
+            <div>
+                <class name="comment">d</class>
+            </div>
+        </cntv>
+        <cri name="cri">
+            <center/>
+        </cri>
+        <sanqin name="sanqin">
+            <footer/>
+        </sanqin>
+        <lifeweek name="lifeweek">
+            <div>
+                <class name="acount">d</class>
+            </div>
+        </lifeweek>
+        <cnr name="cnr">
+            <div>
+                <id name="xgyd">d</id>
+                <id name="spe">d</id>
+                <id name="liuy">d</id>
+                <class name="lh30 left f14 yahei">d</class>
+            </div>
+        </cnr>
+        <sxrb name="sxrb">
+            <ul>
+                <class name="sxp_list">d</class>
+            </ul>
+            <div>
+                <class name="mwb">d</class>
+            </div>
+        </sxrb>
+        <tmtpost name="tmtpost">
+            <blockquote/>
+        </tmtpost>
+    </hosts>
+</configuration>

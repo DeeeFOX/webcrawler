@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <hosts>
+        <!-- add the host site name to the config 2 let this file work-->
+        <chinanews name="chinanews">
+            <div>
+                <class name="top">d</class>
+                <class name="zxians">d</class>
+                <class name="baner">d</class>
+            </div>
+        </chinanews>
+        <sina name="sina">
+            <div>
+                <id name="column_2">d</id>
+                <class name="shareUp">d</class>
+                <class name="into_bloger">d</class>
+                <class name="footer">新浪</class>
+                <class name="sc_success_alert">收藏</class>
+            </div>
+        </sina>
+        <people name="people">
+            <div>
+                <class name="txt_c">d</class>
+                <class name="message">推荐帖子</class>
+                <class name="message">自动返回</class>
+                <class name="hot m10 clearfix">d</class>
+            </div>
+        </people>
+        <sohu name="sohu">
+            <div>
+                <class name="divstockguba">点击进入</class>
+            </div>
+        </sohu>
+        <netease name="163">
+            <div>
+                <style name="snl">d</style>
+                <class name="snl">d</class>
+                <class name="nbw-act tbar fc03 clearfix">d</class>
+                <class name="nb-are nb-nav">d</class>
+                <class name="nb-tpl nb-init phide">d</class>
+                <class name="ptc phide ztag">d</class>
+                <class name="right bdwl bds0 bdc0">d</class>
+                <class name="phide nb-init">d</class>
+            </div>
+        </netease>
+        <huanqiu name="huanqiu">
+            <div>
+                <class name="mzNotice">免责声明</class>
+            </div>
+        </huanqiu>
+        <cntv name="cntv">
+            <div>
+                <class name="articleTags">d</class>
+            </div>
+        </cntv>
+        <dbw name="dbw">
+            <a/>
+            <div>
+                <id name="dbw_topnav">d</id>
+                <id name="dbwcenter">d</id>
+                <class name="div1">d</class>
+                <class name="border">d</class>
+                <class name="txtc">d</class>
+            </div>
+        </dbw>
+    </hosts>
+</configuration>
